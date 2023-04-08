@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.detectIndentation": false,
+    "editor.indentSize": 4,
+    "js-beautify.indent_size": 4,
+    "xml.format.splitAttributesIndentSize": 4
+  }
+}

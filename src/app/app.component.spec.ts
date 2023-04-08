@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'youtube-redesign'`, () => {
+  it(`should have as title 'material-mytube'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('youtube-redesign');
+    expect(app.title).toEqual('material-mytube');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('youtube-redesign app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('material-mytube app is running!');
   });
 });
